@@ -1,9 +1,10 @@
-# wechat-weapp-union 
 # WWU 小程序开发者联盟
+
     小程序开发者福利！！！  
     为了大家互相学习，今日成立【小程序开发者联盟】！  
 
-## 入群周知：  
+## 入群周知： 
+
 ### 一、入群资格  
 1. 必须有一款以上自己开发的小程序或者Demo  
 2. 和所有成员共享小程序源码   
@@ -23,7 +24,11 @@
 
 - [图灵大盗-水浒传](https://github.com/leesx/shuihu-xcx)
 - [QWERT-cnnode社区客户端](https://github.com/SZzzzz/wehcat-weapp-cnode)
-- [图灵大盗-水浒传](https://github.com/leesx/shuihu-xcx)
+- [1111-有调商城](https://github.com/pod4g/wxapp)
+- [龙瑞陈-XY商城](https://github.com/dily3825002/wechat-weapp-union/tree/master/shop)
+- [方涛-智能机器人（暂缺）]()
+- [xx-待续（暂缺）]()
+
 
 ## Github 小程序资料
 
