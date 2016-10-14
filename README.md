@@ -5,10 +5,10 @@
 
 ## 入盟须知： 
 
-### 一、入盟资格  
+### 一、入盟资格   
 
 1. 必须有一款以上自己开发的小程序或者Demo  
-2. 和所有成员共享小程序源码   
+2. 和所有成员共享小程序源码    
 
 ### 二、入盟权益  
 
@@ -28,6 +28,8 @@
 - [QWERT-cnnode社区客户端](https://github.com/SZzzzz/wehcat-weapp-cnode)
 - [1111-有调商城](https://github.com/pod4g/wxapp)
 - [龙瑞陈-XY商城](https://github.com/dily3825002/wechat-weapp-union/tree/master/shop)
+- [Dily-汇率计算器](https://github.com/dily3825002/wechat-weapp-union/tree/master/huilv)
+- [Dily-豆瓣电影](https://github.com/dily3825002/wechat-weapp-union/tree/master/movie)
 - [方涛-智能机器人（暂缺）]()
 - [xx-待续（暂缺）]()
 

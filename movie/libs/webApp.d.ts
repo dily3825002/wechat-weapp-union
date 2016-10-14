@@ -15,9 +15,9 @@ declare module  wx{
         /**收到开发者服务成功返回的回调函数，res = {data:"开发者服务器返回的内容"} */
         success?:(res:{})=>void;
         /**接口调用失败的回调函数 */
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行） */
-        complete?:()=>void;
+        complete?:Function;
     }):void;
     /**
      *  将本地资源上传到开发者服务器。如页面通过 wx.chooseImage 等接口获取到一个本地资源的临时文件路径后，可通过此接口将本地资源上传到指定服务器。客户端发起一个HTTPS POST请求，其中 Content-Type 为 multipart/form-data
@@ -36,9 +36,9 @@ declare module  wx{
         /**接口调用成功的回调函数 */
         success?:(res:{})=>void;
         /**接口调用失败的回调函数 */
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行） */
-        complete?:()=>void;
+        complete?:Function;
     }):void;
     /**
      * ​ 下载文件资源到本地。客户端直接发起一个HTTP GET请求，把下载到的资源根据 type 进行处理，并返回文件的本地临时路径。
@@ -53,9 +53,9 @@ declare module  wx{
         /**下载成功后以 tempFilePath 的形式传给页面，res={tempFilePath:"文件的临时路径"} */
         success?:(res:{})=>void;
         /**接口调用失败的回调函数 */
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行） */
-        complete?:()=>void;
+        complete?:Function;
     }):void;
 
     /**
@@ -73,9 +73,9 @@ declare module  wx{
         /** 接口调用成功的回调函数*/
         success?:(res:{})=>void;
         /** 接口调用失败的回调函数*/
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行） */
-        complete?:()=>void;
+        complete?:Function;
 
     }):void;
     /**
@@ -121,9 +121,9 @@ declare module  wx{
         /**"album"从相册选图，"camera"使用相机，默认二者都由 */
         sourceType?:string[];
         /**接口调用失败的回调函数 */
-        fail?:()=>void;
+        fail?:Function;
         /**	接口调用结束的回调函数（调用成功、失败都会执行）*/
-        complete?:()=>void;
+        complete?:Function;
     }):void;
     /**
      * ​ 预览图片
@@ -136,9 +136,9 @@ declare module  wx{
         /**接口调用成功的回调函数 */
         success?:(res:{})=>void;
         /**接口调用失败的回调函数 */
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行） */
-        complete?:()=>void;
+        complete?:Function;
     }):void;
     /**
      * ​ 开始录音。当主动调用wx.stopRecord，或者录音超过1分钟时自动结束录音，返回录音文件的临时文件路径
@@ -147,9 +147,9 @@ declare module  wx{
         /**录音成功后调用，返回录音文件的临时文件路径，res={tempFilePath:"录音文件的临时路径"} */
         success?:(res:{tempFilePath?:string})=>void;
         /**接口调用失败的回调函数 */
-        fail?:()=>void
+        fail?:Function
         /**接口调用结束的回调函数（调用成功、失败都会执行） */;
-        complete?:()=>void;
+        complete?:Function;
     }):void;
     /**
      * ​主动调用停止录音。
@@ -164,9 +164,9 @@ declare module  wx{
         /**接口调用成功的回调函数 */
         success?:(res:{})=>void;
         /** 接口调用失败的回调函数*/
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行） */
-        complete?:()=>void;
+        complete?:Function;
     }):void;
     /**
      * 暂停正在播放的语音。再次调用wx.playVoice播放同一个文件时，会从暂停处开始播放。如果想从头开始播放，需要先调用wx.stopVoice
@@ -222,15 +222,15 @@ declare module  wx{
     /**
      * 监听音乐播放
      */
-    export function onBackgroundAudioPlay(cb:()=>void):void;
+    export function onBackgroundAudioPlay(cb:Function):void;
     /**
      * 监听音乐暂停
      */
-    export function onBackgroundAudioPause(cb:()=>void):void;
+    export function onBackgroundAudioPause(cb:Function):void;
     /**
      * 监听音乐停止
      */
-    export function onBackgroundAudioStop(cb:()=>void):void;
+    export function onBackgroundAudioStop(cb:Function):void;
     /**
      * ​ ​ ​ 保存文件到本地
      */
@@ -243,9 +243,9 @@ declare module  wx{
             savedFilePath:string;
         })=>void;
         /**接口调用失败的回调函数 */
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行） */
-        complete?:()=>void;
+        complete?:Function;
     }):void;
      /**
      * ​ ​ ​ 拍摄视频或从手机相册中选视频，返回视频的临时文件路径。
@@ -271,9 +271,9 @@ declare module  wx{
             width:number;
         })=>void;
         /**接口调用失败的回调函数 */
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行） */
-        complete?:()=>void;
+        complete?:Function;
     }):void;
     /**
      * 将数据存储在本地缓存中指定的key中，会覆盖掉原来该key对应的内容，这是一个异步接口。
@@ -287,7 +287,7 @@ declare module  wx{
      /**
       * 将DATA存储在本地缓存中指定的KEY中，会覆盖掉原来该KEY对应的内容，这是一个同步接口。
       *@param key 本地缓存中的指定的key
-      *@param data 需要存储的内容
+      *@param data 需要存储的内容 
       */
      export function setStorageSync( key:string,data:any):void;
      /**
@@ -333,9 +333,9 @@ declare module  wx{
          /**默认为"wgs84"返回gps坐标，"gcj02"返回可用于wx.openLocation的坐标 */
         type?:string;
         /**接口调用失败的回调函数 */
-        fail?:()=>void;
+        fail?:Function;
         /** 接口调用结束的回调函数（调用成功、失败都会执行）*/
-        complete?:()=>void;
+        complete?:Function;
      }):void;
      /**
       * 使用微信内置地图查看位置
@@ -356,9 +356,9 @@ declare module  wx{
         /**接口调用成功的回调函数 */
         success?:(res:{})=>void;
         /**接口调用失败的回调函数 */
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行） */
-        complete?:()=>void;
+        complete?:Function;
      });
       /**
       * 获取网络类型
@@ -370,9 +370,9 @@ declare module  wx{
             networkType:string
         })=>void;
         /**接口调用失败的回调函数 */
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行）*/
-        complete?:()=>void;
+        complete?:Function;
      }):void;
      /**
       * 获取系统信息
@@ -421,9 +421,9 @@ declare module  wx{
         /** 接口调用成功的回调函数*/
         success?:(res:{})=>void;
         /** 接口调用失败的回调函数*/
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行） */
-        complete?:()=>void;
+        complete?:Function;
      }):void;
 
      /**
@@ -444,9 +444,9 @@ declare module  wx{
         /**接口调用成功的回调函数 */
         success?:(res:{})=>void;
         /**接口调用失败的回调函数 */
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行） */
-        complete?:()=>void;
+        complete?:Function;
      }):void;
         /**
       * 关闭当前页面，跳转到应用内的某个页面。
@@ -457,9 +457,9 @@ declare module  wx{
         /**接口调用成功的回调函数*/
         success?:(res:{})=>void;
         /**接口调用失败的回调函数*/
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行） */
-        complete?:()=>void;
+        complete?:Function;
      }):void;
         /**
       * 关闭当前页面，回退前一页面
@@ -483,7 +483,7 @@ declare module  wx{
          bottom(length:any):animation;
          /**长度值，如果传入 number 则默认使用 px，可传入其他自定义单位的长度值 */
          right(length:any):animation;
-
+         
          /**deg的范围-180~180，从原点顺时针旋转一个deg角度 */
          rotate(deg:any):animation;
          /**deg的范围-180~180，从原点顺时针旋转一个deg角度 */
@@ -551,7 +551,7 @@ declare module  wx{
         delay?:number;
         /**设置transform-origin，默认为"50% 50%" */
         transformOrigin?:string;
-
+        
      }):animation;
 
       export interface context{
@@ -622,12 +622,12 @@ declare module  wx{
           beginPath():void;
           /**关闭一个路径。 */
           closePath():void;
-           /**把路径移动到画布中的指定点，不创建线条。。
+           /**把路径移动到画布中的指定点，不创建线条。。 
             * @param x 目标位置的x坐标
             * @param y 目标位置的y坐标
            */
           moveTo(x:number,y:number):void;
-          /**在当前位置添加一个新点，然后在画布中创建从该点到最后指定点的路径。
+          /**在当前位置添加一个新点，然后在画布中创建从该点到最后指定点的路径。 
             * @param x 目标位置的x坐标
             * @param y 目标位置的y坐标
           */
@@ -647,7 +647,7 @@ declare module  wx{
            * @param sweepAngle 从起始弧度开始，扫过的弧度
           */
           arc(x:number,y:number,radius:number,startAngle:number,sweepAngle:number):void;
-          /**创建二次贝塞尔曲线路径。
+          /**创建二次贝塞尔曲线路径。 
            *  @param cpx 贝塞尔控制点的x坐标
            *  @param cpy 贝塞尔控制点的y坐标
            *  @param x 结束点的x坐标
@@ -663,38 +663,38 @@ declare module  wx{
            *  @param y 结束点的y坐标
           */
           bezierCurveTo(cp1x:number,cp1y:number,cp2x:number,cp2y:number,x:number,y:number):void;
-          /**设置纯色填充。
+          /**设置纯色填充。 
            * @param color 设置为填充样式的颜色('rgb(255, 0, 0)'或'rgba(255, 0, 0, 0.6)'或'#ff0000'格式的颜色字符串)
           */
           setFillStyle(color:string):void;
-          /**设置纯色描边
+          /**设置纯色描边 
            * @param color 设置为填充样式的颜色('rgb(255, 0, 0)'或'rgba(255, 0, 0, 0.6)'或'#ff0000'格式的颜色字符串)
           */
           setStrokeStyle(color:string):void;
-          /**设置阴影样式。
+          /**设置阴影样式。 
            *  @param offsetX 阴影相对于形状在水平方向的偏移
            *  @param offsetY 阴影相对于形状在竖直方向的偏移
            *  @param blur 阴影的模糊级别，数值越大越模糊(0~100)
            *  @param color 阴影的颜色('rgb(255, 0, 0)'或'rgba(255, 0, 0, 0.6)'或'#ff0000'格式的颜色字符串)
           */
           setShadow(offsetX:number,offsetY:number,blur:number,color:any):void;
-          /**设置字体的字号。
+          /**设置字体的字号。 
            * @param fontSize 字体的字号
           */
           setFontSize(fontSize:number):void;
-          /**设置线条的宽度。
+          /**设置线条的宽度。 
            * @param lineWidth 线条的宽度
           */
           setLineWidth(lineWidth:number):void;
-          /**设置线条的结束端点样式。
+          /**设置线条的结束端点样式。 
            * @param lineCap 线条的结束端点样式('butt'、'round'、'square')
           */
           setLineCap(lineCap:string):void;
-          /**设置两条线相交时，所创建的拐角类型。
+          /**设置两条线相交时，所创建的拐角类型。 
            * @param lineJoin 两条线相交时，所创建的拐角类型('bevel'、'round'、'miter')
           */
           setLineJoin(lineJoin:string):void;
-          /**设置最大斜接长度，斜接长度指的是在两条线交汇处内角和外角之间的距离。 当setLineJoin为'miter'时才有效。超过最大倾斜长度的，连接处将以lineJoin为bevel来显示
+          /**设置最大斜接长度，斜接长度指的是在两条线交汇处内角和外角之间的距离。 当setLineJoin为'miter'时才有效。超过最大倾斜长度的，连接处将以lineJoin为bevel来显示 
            * @param miterLimit 最大斜接长度
           */
           setMiterLimit(miterLimit:number):void;
@@ -727,9 +727,9 @@ declare module  wx{
             code:string;
         })=>void;
         /**接口调用失败的回调函数*/
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行）*/
-        complete?:()=>void;
+        complete?:Function;
      }):void;
      /**
       * 获取用户信息，需要先调用wx.login接口
@@ -763,38 +763,38 @@ declare module  wx{
         /**接口调用成功的回调函数 */
         success?:(res:{})=>void;
          /**接口调用失败的回调函数*/
-        fail?:()=>void;
+        fail?:Function;
         /**接口调用结束的回调函数（调用成功、失败都会执行）*/
-        complete?:()=>void;
+        complete?:Function;
      }):void;
 }
 /**函数用来注册一个小程序。接受一个object参数，其指定小程序的生命周期函数等。 */
 declare function App(obj:{
     /**生命周期函数--监听小程序初始化(当小程序初始化完成时，会触发onLaunch（全局只触发一次）） */
-    onLaunch?:()=>void;
+    onLaunch?:Function;
     /**生命周期函数--监听小程序显示（当小程序启动，或从后台进入前台显示，会触发onShow） */
-    onShow?:()=>void;
+    onShow?:Function;
     /**生命周期函数--监听小程序隐藏（	当小程序从前台进入后台，会触发onHide） */
-    onHide?:()=>void;
+    onHide?:Function;
 }):void;
 declare function Page(obj:{
     /**页面的初始数据 */
     data?:{};
     /**生命周期函数--监听页面加载 */
-    onLoad?:()=>void;
+    onLoad?:Function;
     /**生命周期函数--监听页面渲染完成 */
-    onReady?:()=>void;
+    onReady?:Function;
     /**生命周期函数--监听页面显示 */
-    onShow?:()=>void;
+    onShow?:Function;
     /**生命周期函数--监听页面隐藏 */
-    onHide?:()=>void;
+    onHide?:Function;
     /**生命周期函数--监听页面卸载 */
-    onUnload?:()=>void;
+    onUnload?:Function;
 }):void;
 /*全局的getApp()函数，可以获取到小程序实例 */
 declare function getApp():{
     /**用户获取当前页面的实例。 */
-    getCurrentPage:()=>void
+    getCurrentPage:Function
 }
 
 
