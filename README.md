@@ -35,6 +35,7 @@
 - [丛九九-哔哩哔哩排行榜](https://github.com/congjiujiu/bilibiliRank)
 - [大鹏-豆瓣电影调用](https://github.com/dily3825002/wechat-weapp-union/tree/master/diaoyongdy)
 - [刘彩和-知乎日报](https://github.com/LiuCaiHe/wechat-app-sample)
+- [突然下雨-贪吃蛇大作战](https://github.com/dily3825002/wechat-weapp-union/tree/master/snake)
 
 
 
