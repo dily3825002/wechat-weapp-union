@@ -28,11 +28,11 @@
 - [QWERT-cnnode社区客户端](https://github.com/SZzzzz/wehcat-weapp-cnode)
 - [1111-有调商城](https://github.com/pod4g/wxapp)
 - [龙瑞陈-XY商城](https://github.com/dily3825002/wechat-weapp-union/tree/master/shop)
-- [Dily-汇率计算器](https://github.com/dily3825002/wechat-weapp-union/tree/master/huilv)
+- [A闪-汇率计算器](https://github.com/dily3825002/wechat-weapp-union/tree/master/huilv)
 - [Dily-豆瓣电影](https://github.com/dily3825002/wechat-weapp-union/tree/master/movie)
 - [方涛-智能机器人（暂缺）]()
 - [叶健铭-天气](https://github.com/dily3825002/wechat-weapp-union/tree/master/weather)
-- [丛久久-哔哩哔哩排行榜](https://github.com/congjiujiu/bilibiliRank)
+- [丛九九-哔哩哔哩排行榜](https://github.com/congjiujiu/bilibiliRank)
 - [大鹏-豆瓣电影调用](https://github.com/dily3825002/wechat-weapp-union/tree/master/diaoyongdy)
 
 
