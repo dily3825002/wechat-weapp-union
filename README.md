@@ -26,7 +26,7 @@
 
 - [图灵大盗-水浒传](https://github.com/leesx/shuihu-xcx)
 - [QWERT-cnnode社区客户端](https://github.com/SZzzzz/wehcat-weapp-cnode)
-- [1111-有调商城](https://github.com/pod4g/wxapp)
+- [pod4g-有调商城](https://github.com/pod4g/wxapp)
 - [龙瑞陈-XY商城](https://github.com/dily3825002/wechat-weapp-union/tree/master/shop)
 - [A闪-汇率计算器](https://github.com/dily3825002/wechat-weapp-union/tree/master/huilv)
 - [Dily-豆瓣电影](https://github.com/dily3825002/wechat-weapp-union/tree/master/movie)
