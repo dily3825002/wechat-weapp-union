@@ -22,7 +22,6 @@
 
   小程序名称  | 推荐理由 
   --------- | --------
-[Thinking In Java 中文版](http://www.amazon.cn/Java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3-%E5%9F%83%E5%8F%B2%E5%B0%94/dp/B0011F7WU4/ref=sr_1_1?ie=UTF8&qid=1428138267&sr=8-1&keywords=java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3) | 学习 Android 开发, 首先需要 Java 基础, 这里推荐 Thinking In Java, Thinking In Java 是 Java 的经典书籍, 是学习 Java 语言必备书籍
 [微信小应用示例代码(phodal/weapp-quick)](https://github.com/phodal/weapp-quick)|更新中
 [微信小应用地图定位demo(giscafer/wechat-weapp-mapdemo)](https://github.com/giscafer/wechat-weapp-mapdemo)|更新中
 [微信小应用掘金主页信息流(hilongjw/weapp-gold)](https://github.com/hilongjw/weapp-gold)|更新中
