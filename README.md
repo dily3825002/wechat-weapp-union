@@ -20,7 +20,7 @@
 入盟请加我的微信，审核通过后方可拉入盟。  
 注意：不准私自拉人入盟，想入群加群主，否则一块踢掉！
 
-<img src="http://eger.sinaapp.com/code/public/dily.png"/>
+<img src="dily.png"/>
 
 ## 联盟成员源码
 
