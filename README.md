@@ -32,6 +32,9 @@
 - [Dily-豆瓣电影](https://github.com/dily3825002/wechat-weapp-union/tree/master/movie)
 - [方涛-智能机器人（暂缺）]()
 - [叶健铭-天气](https://github.com/dily3825002/wechat-weapp-union/tree/master/weather)
+- [丛久久-哔哩哔哩排行榜](https://github.com/congjiujiu/bilibiliRank)
+- [大鹏-豆瓣电影调用](https://github.com/dily3825002/wechat-weapp-union/tree/master/diaoyongdy)
+
 
 
 ## Github 小程序资料
