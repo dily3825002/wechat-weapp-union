@@ -84,6 +84,7 @@
 - [小岩-商城](https://github.com/rocktyy/small_application)
 - [小猴土豆-商城](https://github.com/johnwang77/SmallApp)
 - [白天不懂夜的黑-黑市商城](https://github.com/dily3825002/wechat-weapp-union/tree/master/wxApp)
+- [徐程亮-v2ex](https://github.com/dily3825002/wechat-weapp-union/tree/master/v2ex)
 
 
 ## 社区
