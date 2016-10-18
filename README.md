@@ -9,6 +9,7 @@
 ## 目录
 
 - [小程序精品源码](#小程序精品源码)
+- [小程序联盟成员源码](#小程序联盟成员源码)
 - [小程序精品开发教程](#小程序精品开发教程)
 - [小程序开发IDE](#小程序开发IDE)
 - [小程序开发者联盟](#小程序开发者联盟)
@@ -53,38 +54,42 @@
 [微信小程序 Artand 最专业的艺术设计平台](https://github.com/SuperKieran/weapp-artand)|更新中
 [微信小程序 开心一刻(zhijieeeeee/wechat-app-joke)](https://github.com/zhijieeeeee/wechat-app-joke)|更新中
 
+## 小程序联盟成员源码
+
+  小程序名称  | 推荐理由 
+  --------- | --------
+[图灵大盗-水浒传](https://github.com/leesx/shuihu-xcx)|更新中
+[QWERT-cnnode社区客户端](https://github.com/SZzzzz/wehcat-weapp-cnode)|更新中
+[pod4g-有调商城](https://github.com/pod4g/wxapp)|更新中
+[龙瑞陈-XY商城](https://github.com/dily3825002/wechat-weapp-union/tree/master/shop)|更新中
+[A闪-汇率计算器](https://github.com/dily3825002/wechat-weapp-union/tree/master/huilv)|更新中
+[Dily-豆瓣电影](https://github.com/dily3825002/wechat-weapp-union/tree/master/movie)|更新中
+[方涛-智能机器人](https://github.com/dily3825002/wechat-weapp-union/tree/master/zndg)|更新中
+[叶健铭-天气](https://github.com/dily3825002/wechat-weapp-union/tree/master/weather)|更新中
+[丛九九-哔哩哔哩排行榜](https://github.com/congjiujiu/bilibiliRank)|更新中
+[大鹏-豆瓣电影调用](https://github.com/dily3825002/wechat-weapp-union/tree/master/diaoyongdy)|更新中
+[刘彩和-知乎日报](https://github.com/LiuCaiHe/wechat-app-sample)|更新中
+[突然下雨-贪吃蛇大作战](https://github.com/dily3825002/wechat-weapp-union/tree/master/snake)|更新中
+[周国威-计时器](https://github.com/dily3825002/wechat-weapp-union/tree/master/myTimer)|更新中
+[小岩-商城](https://github.com/rocktyy/small_application)|更新中
+[小猴土豆-商城](https://github.com/johnwang77/SmallApp)|更新中
+[白天不懂夜的黑-黑市商城](https://github.com/dily3825002/wechat-weapp-union/tree/master/wxApp)|更新中
+[徐程亮-v2ex](https://github.com/dily3825002/wechat-weapp-union/tree/master/v2ex)|更新中
+
 ## 小程序精品开发教程
 
 ## 小程序开发IDE
 
- 环境/工具 | 简述
- -------- | --------
-[Egret Wing](http://developer.android.com/sdk/index.html) | 首款支持微信小程序开发的IDE。代码着色、代码提示、实时预览、调试程序、项目模板等功能，帮助开发者提升效率。
-[Sublime Text 3](http://www.sublimetext.com/3) | 更新中
-[Webstorm](http://www.jetbrains.com/webstorm/) | 更新中
-[vscode](https://code.visualstudio.com/) | 更新中
-[vim](http://www.vim.org/) | 更新中
+ 环境/工具 | 简述 | 是否支持小程序开发
+ -------- | -------- | --------
+[Egret Wing](http://developer.android.com/sdk/index.html) | 首款支持微信小程序开发的IDE。代码着色、代码提示、实时预览、调试程序、项目模板等功能，帮助开发者提升效率。|支持
+[Sublime Text 3](http://www.sublimetext.com/3) | Sublime Text具有漂亮的用户界面和强大的功能，例如代码缩略图，Python的插件，代码段等。不支持微信小程序的代码着色、代码提示和补全。|需要插件切不支持实时预览
+[Webstorm](http://www.jetbrains.com/webstorm/) | WebStorm 是jetbrains公司旗下一款JavaScript 开发工具。被广大中国JS开发者誉为“Web前端开发神器”、“最强大的HTML5编辑器”、“最智能的JavaScript IDE”等。|需要插件切不支持实时预览
+[vscode](https://code.visualstudio.com/) | VS Code（Visual Studio Code）是由微软研发的一款免费、开源的跨平台文本（代码）编辑器。|需要插件切不支持实时预览
+[vim](http://www.vim.org/) | Vim是一个类似于Vi的著名的功能强大、高度可定制的文本编辑器，在Vi的基础上改进和增加了很多特性。|不支持
 
 
-## 联盟成员源码
 
-- [图灵大盗-水浒传](https://github.com/leesx/shuihu-xcx)
-- [QWERT-cnnode社区客户端](https://github.com/SZzzzz/wehcat-weapp-cnode)
-- [pod4g-有调商城](https://github.com/pod4g/wxapp)
-- [龙瑞陈-XY商城](https://github.com/dily3825002/wechat-weapp-union/tree/master/shop)
-- [A闪-汇率计算器](https://github.com/dily3825002/wechat-weapp-union/tree/master/huilv)
-- [Dily-豆瓣电影](https://github.com/dily3825002/wechat-weapp-union/tree/master/movie)
-- [方涛-智能机器人](https://github.com/dily3825002/wechat-weapp-union/tree/master/zndg)
-- [叶健铭-天气](https://github.com/dily3825002/wechat-weapp-union/tree/master/weather)
-- [丛九九-哔哩哔哩排行榜](https://github.com/congjiujiu/bilibiliRank)
-- [大鹏-豆瓣电影调用](https://github.com/dily3825002/wechat-weapp-union/tree/master/diaoyongdy)
-- [刘彩和-知乎日报](https://github.com/LiuCaiHe/wechat-app-sample)
-- [突然下雨-贪吃蛇大作战](https://github.com/dily3825002/wechat-weapp-union/tree/master/snake)
-- [周国威-计时器](https://github.com/dily3825002/wechat-weapp-union/tree/master/myTimer)
-- [小岩-商城](https://github.com/rocktyy/small_application)
-- [小猴土豆-商城](https://github.com/johnwang77/SmallApp)
-- [白天不懂夜的黑-黑市商城](https://github.com/dily3825002/wechat-weapp-union/tree/master/wxApp)
-- [徐程亮-v2ex](https://github.com/dily3825002/wechat-weapp-union/tree/master/v2ex)
 
 
 ## 社区
