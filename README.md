@@ -24,6 +24,9 @@
   小程序名称  | 推荐理由 
   --------- | --------
 [微信小应用示例代码(phodal/weapp-quick)](https://github.com/phodal/weapp-quick)|更新中
+
+
+[微信小应用示例代码(phodal/weapp-quick)](https://github.com/phodal/weapp-quick)|更新中
 [微信小应用地图定位demo(giscafer/wechat-weapp-mapdemo)](https://github.com/giscafer/wechat-weapp-mapdemo)|更新中
 [微信小应用掘金主页信息流(hilongjw/weapp-gold)](https://github.com/hilongjw/weapp-gold)|更新中
 [微信小程序（应用号）示例：微信小程序豆瓣电影(zce/weapp-demo)](https://github.com/zce/weapp-demo)|更新中
@@ -89,17 +92,16 @@
 [vim](http://www.vim.org/) | Vim是一个类似于Vi的著名的功能强大、高度可定制的文本编辑器，在Vi的基础上改进和增加了很多特性。|不支持
 
 
-
-
-
 ## 社区
 
  名称 | 简介
  ---- | ----
-[StackOverFlow](http://stackoverflow.com/) | IT 界的问答社区, 你开发当中所遇到的问题基本上都能在这里能寻找到你想要的答案
-[SegmentFault](https://segmentfault.com/) | SegmentFault 是一个专注于解决编程问题, 提高开发技能的社区
-[CSDN](http://blog.csdn.net/mobile/newest.html) | CSDN 是全球最大中文IT技术社区
-[稀土掘金](http://gold.xitu.io/) | 高质量的技术分享社区
+[很快小程序社区](http://www.henkuai.com/forum-56-1.html) | 微信公众号小程序、微信小程序开发、微信应用号，小程序开发交流版块，提供各类小程序开发工具及开发教程，交流探讨小程序开发问答。
+[SegmentFault](https://segmentfault.com/t/%E5%B0%8F%E7%A8%8B%E5%BA%8F/blogs) | SegmentFault 是一个专注于解决编程问题, 提高开发技能的社区
+[CSDN](http://www.csdn.net/tag/%E5%B0%8F%E7%A8%8B%E5%BA%8F) | CSDN 是全球最大中文IT技术社区
+[掘金](http://gold.xitu.io/tag/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F) | 高质量的技术分享社区
+[diyCode](http://www.diycode.cc/topics/node49) | DiyCode是一个优雅、极客、创意、分享、美好的开发社区。
+[青雀论坛](http://bbs.larkapp.com/forum-52-1.html) | 国内领先的小程序开发创建平台
 
 # Github 小程序资料
 
