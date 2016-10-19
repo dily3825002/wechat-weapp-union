@@ -3,9 +3,9 @@
  微信小程序是一个前景广阔的新兴技术，但是目前市面上的资料比较少。
 
  我们汇聚了原创性小程序源码、精品小程序源码、由浅入深的系列教程供大家学习参考，也希望更多的同学加入我们。
-
+ 
  我们会一直更新维护这个仓, 同时也欢迎更多的微信小程序开发者将自己常用的工具、学习资料、学习心得等分享上来, 我们将定期筛选整理, 希望我能与大家一起学习进步, 谢谢.
-
+ 
 ## 目录
 
 - [小程序精品源码](#小程序精品源码)
@@ -41,7 +41,7 @@
 生活|[小熊の日记](https://github.com/harveyqing/BearDiary)|更新中
 健康|[健康菜谱](https://github.com/bestTao/Caipu_weixin)|更新中
 办公|[教务系统](https://github.com/zh-h/student-information-system-wechat-applet)|更新中
-学习|[github](https://github.com/zhengxiaowai/weapp-github)|更新中
+学习|[github](https://github.com/zhengxiaowai/weapp-github)|调用Github接口实现基本Github小程序，逼格满满
 学习|[Gank客户端](https://github.com/lypeer/wechat-weapp-gank)|更新中
 学习|[分答](https://github.com/davedavehong/fenda-mock)|更新中
 娱乐|[微票](https://github.com/wangmingjob/weapp-weipiao)|通过微票的公开接口，实现了小程序员版本的微票，包含正在上映和放映影院两个功能。以学习接口调用、tab使用、页面跳转等知识
