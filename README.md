@@ -21,41 +21,35 @@
 
 ## 小程序精品源码
 
-  小程序名称  | 推荐理由 
-  --------- | --------
-[微信小应用示例代码(phodal/weapp-quick)](https://github.com/phodal/weapp-quick)|更新中
-
-
-[微信小应用示例代码(phodal/weapp-quick)](https://github.com/phodal/weapp-quick)|更新中
-[微信小应用地图定位demo(giscafer/wechat-weapp-mapdemo)](https://github.com/giscafer/wechat-weapp-mapdemo)|更新中
-[微信小应用掘金主页信息流(hilongjw/weapp-gold)](https://github.com/hilongjw/weapp-gold)|更新中
-[微信小程序（应用号）示例：微信小程序豆瓣电影(zce/weapp-demo)](https://github.com/zce/weapp-demo)|更新中
-[微信小程序-豆瓣电影(hingsir/weapp-douban-film)](https://github.com/hingsir/weapp-douban-film)|更新中
-[小程序 hello world 尝鲜(kunkun12/weapp)](https://github.com/kunkun12/weapp)|更新中
-[微信小程序版2048小游戏(natee/wxapp-2048)](https://github.com/natee/wxapp-2048)|更新中
-[微信小程序-微票(wangmingjob/weapp-weipiao)](https://github.com/wangmingjob/weapp-weipiao)|更新中
-[微信小程序购物车DEMO(SeptemberMaples/wechat-weapp-demo)](https://github.com/SeptemberMaples/wechat-weapp-demo)|更新中
-[微信小程序V2EX(jectychen/wechat-v2ex)](https://github.com/jectychen/wechat-v2ex)|更新中
-[微信小程序-知乎日报(myronliu347/wechat-app-zhihudaily)](https://github.com/myronliu347/wechat-app-zhihudaily)|更新中
-[微信小程序-公众号热门文章信息流(hijiangtao/weapp-newsapp)](https://github.com/hijiangtao/weapp-newsapp)|更新中
-[微信小程序版Gank客户端(lypeer/wechat-weapp-gank)](https://github.com/lypeer/wechat-weapp-gank)|更新中
-[微信小程序集成Redux实现的Todo list(charleyw/wechat-weapp-redux-todos)](https://github.com/charleyw/wechat-weapp-redux-todos)|更新中
-[微信小程序-番茄时钟(kraaas/timer)](https://github.com/kraaas/timer)|更新中
-[微信小程序项目汇总](http://javascript.ctolib.com/categories/javascript-wechat-weapp.html)|更新中
-[微信小程序版聊天室(ericzyh/wechat-chat)](https://github.com/ericzyh/wechat-chat)|更新中
-[微信小程序-HiApp(BelinChung/wxapp-hiapp)](https://github.com/BelinChung/wxapp-hiapp)|更新中
-[小程序Redux绑定库(charleyw/wechat-weapp-redux)](https://github.com/charleyw/wechat-weapp-redux)|更新中
-[微信小程序版微信(18380435477/WeApp)](https://github.com/18380435477/WeApp)|更新中
-[小程序开发从布局开始(hardog/wechat-app-flexlayout)](https://github.com/hardog/wechat-app-flexlayout)|更新中
-[微信小程序-音乐播放器(eyasliu/wechat-app-music)](https://github.com/eyasliu/wechat-app-music)|更新中
-[微信小程序-简易计算器-适合入门（dunizb/wxapp-sCalc）](https://github.com/dunizb/wxapp-sCalc)|更新中
-[微信小程序-github(zhengxiaowai/weapp-github)](https://github.com/zhengxiaowai/weapp-github)|更新中
-[微信小程序-小熊の日记(harveyqing/BearDiary)](https://github.com/harveyqing/BearDiary)|更新中
-[微信小程序(Seahub/PigRaising)](https://github.com/SeaHub/PigRaising)|更新中
-[微信小程序(WeChatMeiZhi妹子图)](https://github.com/brucevanfdm/WeChatMeiZhi)|更新中
-[微信小程序快速开发骨架](https://github.com/zce/weapp-boilerplate)|更新中
-[微信小程序 Artand 最专业的艺术设计平台](https://github.com/SuperKieran/weapp-artand)|更新中
-[微信小程序 开心一刻(zhijieeeeee/wechat-app-joke)](https://github.com/zhijieeeeee/wechat-app-joke)|更新中
+*分类*|*小程序名称*|*推荐理由*
+---------|--------|--------
+视频|[芒果TV](https://github.com/web-Marker/wechat-Development)|风格是模仿芒果TV的风格和几个展示公开接口，对应的最新视频并不能观看(请自行下载芒果tv App观看)
+视频|[豆瓣电影](https://github.com/zce/weapp-demo)|使用豆瓣电影接口，实现榜单、搜索、我的、排行榜等功能。可以学习开发阶段与生产阶段分离、boilerplate开发框架等知识
+阅读|[知乎&豆瓣](https://github.com/oopsguy/WechatSmallApps)|知乎日报和豆瓣电影两个案例，知乎日报包含了非常详细的功能。可以学习，接口调用、文章详情、分享、评论等知识
+工具|[简易计算器](https://github.com/dunizb/wxapp-sCalc)|微信小程序版，适合入门，由于重点不是实现计算器具体功能，主要是为了学习微信小程序开发
+工具|[番茄时钟](https://github.com/kraaas/timer)|最基础的例子，番茄时钟做个定时器可以简单学习
+社交|[手机QQ](https://github.com/xiehui999/SmallAppForQQ)|实现聊天列表、联系人、音乐等功能。可以学习list、音乐api等知识
+社交|[v2ex](https://github.com/jectychen/wechat-v2ex)|v2ex数据api基本上使用了samuel1112的仓库v2er里封装的方法，实现最新、最热、帖子详情等功能。可以学习接口调用、tab使用、图文混排等知识
+社交|[微信](https://github.com/liujians/WeApp)|整合了ionic的样式库和weui的样式库。超级推荐的学习案例，丰富功能请到github页面学习查看
+社交|[HiApp](https://github.com/BelinChung/wxapp-hiapp)|'炸裂推荐'如果要做通讯小程序的话这个的学习必不可少
+音乐|[音乐播放器](https://github.com/eyasliu/wechat-app-music)|音乐播放类小程序，实现了大部分核心功能值得学习
+音乐|[全民k歌](https://github.com/imhuster/kg)|更新中
+购物|[移动端商城](https://github.com/liuxuanqiang/wechat-weapp-mall)|通过球球小镇公众号的接口，实现首页、分类、购物车、我的等功能。可以学习接口调用、tab使用、加载等待、轮播图等知识
+购物|[购物车DEMO](https://github.com/SeptemberMaples/wechat-weapp-demo)|更新中
+出行|[地图定位](https://github.com/giscafer/wechat-weapp-mapdemo)|更新中
+生活|[艺术设计平台](https://github.com/SuperKieran/weapp-artand)|更新中
+生活|[小熊の日记](https://github.com/harveyqing/BearDiary)|更新中
+健康|[健康菜谱](https://github.com/bestTao/Caipu_weixin)|更新中
+办公|[教务系统](https://github.com/zh-h/student-information-system-wechat-applet)|更新中
+学习|[github](https://github.com/zhengxiaowai/weapp-github)|更新中
+学习|[Gank客户端](https://github.com/lypeer/wechat-weapp-gank)|更新中
+学习|[分答](https://github.com/davedavehong/fenda-mock)|更新中
+娱乐|[微票](https://github.com/wangmingjob/weapp-weipiao)|通过微票的公开接口，实现了小程序员版本的微票，包含正在上映和放映影院两个功能。以学习接口调用、tab使用、页面跳转等知识
+娱乐|[妹子图](https://github.com/brucevanfdm/WeChatMeiZhi)|更新中
+娱乐|[开心一刻](https://github.com/zhijieeeeee/wechat-app-joke)|笑话对就是笑话
+新闻|[今日头条](https://github.com/CrazyCodes/WeiXin-SmallApps-Information)|不好意思，我用微信小程序做了一个今日头条
+游戏|[2048小游戏](https://github.com/natee/wxapp-2048)|微信也能做游戏？对看看这款2048体验怎么样？
+游戏|[LOL战绩查询](https://github.com/xiaowenxia/weapp-lolgame)|使用了微信小程序的网络功能进行LOL战绩查询
 
 ## 小程序联盟成员源码
 
@@ -86,10 +80,10 @@
  环境/工具 | 简述 | 是否支持小程序开发
  -------- | -------- | --------
 [Egret Wing](http://developer.android.com/sdk/index.html) | 首款支持微信小程序开发的IDE。代码着色、代码提示、实时预览、调试程序、项目模板等功能，帮助开发者提升效率。|支持
-[Sublime Text 3](http://www.sublimetext.com/3) | Sublime Text具有漂亮的用户界面和强大的功能，例如代码缩略图，Python的插件，代码段等。不支持微信小程序的代码着色、代码提示和补全。|需要插件切不支持实时预览
-[Webstorm](http://www.jetbrains.com/webstorm/) | WebStorm 是jetbrains公司旗下一款JavaScript 开发工具。被广大中国JS开发者誉为“Web前端开发神器”、“最强大的HTML5编辑器”、“最智能的JavaScript IDE”等。|需要插件切不支持实时预览
-[vscode](https://code.visualstudio.com/) | VS Code（Visual Studio Code）是由微软研发的一款免费、开源的跨平台文本（代码）编辑器。|需要插件切不支持实时预览
-[vim](http://www.vim.org/) | Vim是一个类似于Vi的著名的功能强大、高度可定制的文本编辑器，在Vi的基础上改进和增加了很多特性。|不支持
+[Sublime Text 3](http://www.sublimetext.com/3) | Sublime Text具有漂亮的用户界面和强大的功能，例如代码缩略图，Python的插件，代码段等。不支持微信小程序的代码着色、代码提示和补全。|需要插件并且不支持实时预览
+[Webstorm](http://www.jetbrains.com/webstorm/) | WebStorm 是jetbrains公司旗下一款JavaScript 开发工具。被广大中国JS开发者誉为“Web前端开发神器”、“最强大的HTML5编辑器”、“最智能的JavaScript IDE”等。|需要[插件](https://github.com/lypeer/Matchmaker)并且不支持实时预览
+[vscode](https://code.visualstudio.com/) | VS Code（Visual Studio Code）是由微软研发的一款免费、开源的跨平台文本（代码）编辑器。|需要[插件](https://github.com/chemzqm/wxapp.vim)并且不支持实时预览
+[vim](http://www.vim.org/) | Vim是一个类似于Vi的著名的功能强大、高度可定制的文本编辑器，在Vi的基础上改进和增加了很多特性。|需要[插件](https://github.com/chemzqm/wxapp.vim)并且不支持实时预览
 
 
 ## 社区
