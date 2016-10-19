@@ -11,7 +11,7 @@
 - [小程序精品源码](#小程序精品源码)
 - [小程序联盟成员源码](#小程序联盟成员源码)
 - [小程序精品开发教程](#小程序精品开发教程)
-- [小程序开发IDE](#小程序开发IDE)
+- [十大小程序开发IDE](#十大小程序开发IDE)
 - [小程序开发者联盟](#小程序开发者联盟)
 - [社区](#社区)
 - [贡献者](#贡献者)
@@ -75,15 +75,20 @@
 
 ## 小程序精品开发教程
 
-## 小程序开发IDE
+## 十大小程序开发IDE
 
  环境/工具 | 简述 | 是否支持小程序开发
  -------- | -------- | --------
+[官方工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html) | 微信小程序有自己的开发工具，是基于nw.js写的。做的比较简洁，基本的代码编辑、智能提示、调试等功能都有|不好的地方也很明显，不支持查看引用，不支持代码重构，最可恶的是居然不支持自家api的智能提示,写起代码来不够畅快
 [Egret Wing](http://developer.android.com/sdk/index.html) | 首款支持微信小程序开发的IDE。代码着色、代码提示、实时预览、调试程序、项目模板等功能，帮助开发者提升效率。|支持
-[Sublime Text 3](http://www.sublimetext.com/3) | Sublime Text具有漂亮的用户界面和强大的功能，例如代码缩略图，Python的插件，代码段等。不支持微信小程序的代码着色、代码提示和补全。|需要插件并且不支持实时预览
+[Sublime Text 3](http://www.sublimetext.com/3) | Sublime Text具有漂亮的用户界面和强大的功能，例如代码缩略图，Python的插件，代码段等。不支持微信小程序的代码着色、代码提示和补全。|需要[插件](https://github.com/Abbotton/weapp-snippet-for-sublime-text-2-3)并且不支持实时预览
 [Webstorm](http://www.jetbrains.com/webstorm/) | WebStorm 是jetbrains公司旗下一款JavaScript 开发工具。被广大中国JS开发者誉为“Web前端开发神器”、“最强大的HTML5编辑器”、“最智能的JavaScript IDE”等。|需要[插件](https://github.com/lypeer/Matchmaker)并且不支持实时预览
-[vscode](https://code.visualstudio.com/) | VS Code（Visual Studio Code）是由微软研发的一款免费、开源的跨平台文本（代码）编辑器。|需要[插件](https://github.com/chemzqm/wxapp.vim)并且不支持实时预览
+[vscode](https://code.visualstudio.com/) | VS Code（Visual Studio Code）是由微软研发的一款免费、开源的跨平台文本（代码）编辑器。|需要[插件](https://github.com/hellopao/wx.d.ts)并且不支持实时预览
 [vim](http://www.vim.org/) | Vim是一个类似于Vi的著名的功能强大、高度可定制的文本编辑器，在Vi的基础上改进和增加了很多特性。|需要[插件](https://github.com/chemzqm/wxapp.vim)并且不支持实时预览
+[WEPT](https://github.com/chemzqm/wept) | 实时更新，支持 wxml wxss javascript json;更加稳定，不像官方工具经常出错;没有限制，无需联网，无需后端配置 CORS ，支持移动浏览器调试|没有IDE工具，需要第三方代码编辑器支持
+[atom](https://atom.io/) | Atom 比 Vim 更 Vim，比 Emacs 更 Emacs，同样，比 Sublime 更 Sublime|不支持
+[TextMate](http://macromates.com/) | Mac OS 版本的 IDE，目前没有 windows 版本。功能强劲，易学易用|不支持
+[IDEA](https://www.jetbrains.com/idea/) | 作为Jetbrain所有ide的爸爸，当然也是webstorm的爸爸，加之超丰富的插件支持，MEAN全栈，Java全家桶，php，python写起来都非常爽|不支持
 
 
 ## 社区
