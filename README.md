@@ -141,6 +141,8 @@
 
 ## 贡献者
 
+> 都看到这里了，如果觉得对您有帮助就帮忙点个`star`吧。
+
 点击[该链接](https://github.com/dily3825002/wechat-weapp-union/graphs/contributors)查看该项目所有贡献者
 
 ## License
