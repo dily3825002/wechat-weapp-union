@@ -95,6 +95,14 @@
 2. [CSS 教程](http://www.w3cschool.cn/css)
 3. [JavaScript 教程](http://www.w3cschool.cn/javascript)
 
+> 视频教程
+
+1. [微信小程序开发实战 一](http://edu.csdn.net/course/detail/3011)
+2. [微信小程序开发实战 二](http://edu.csdn.net/course/detail/3045)
+3. [微信小程序开发实战 三](http://www.howzhi.com/course/15035/)
+4. [微信小程序开发实战 四](http://www.jikexueyuan.com/zhiye/course/34.html?type=8&utm_source=jike&utm_medium=www_index_cf&utm_campaign=wechat_app&utm_content=0930)
+5. [微信小程序开发实战 五](http://edu.51cto.com/course/course_id-7242.html)
+
 ### 三. 小程序开发高级教程
 
 > 学习了官方文档，又学习了HTML的基础知识，咱们可以拿实例教程学习了。
