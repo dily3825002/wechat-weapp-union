@@ -75,7 +75,7 @@
 购物|[小岩-商城](https://github.com/rocktyy/small_application)|购物商城实现|⭐️⭐️⭐️⭐️⭐️
 购物|[小猴土豆-商城](https://github.com/johnwang77/SmallApp)|和上边一样购物商城|⭐️⭐️⭐️⭐️⭐️
 购物|[白天不懂夜的黑-黑市商城](https://github.com/dily3825002/wechat-weapp-union/tree/master/wxApp)|和上边一样购物商城|⭐️⭐️⭐️⭐️⭐️
-
+工具|[icindy-wxParse](https://github.com/icindy/wxParse)|微信小程序富文本解析自定义组件，支持HTML及markdown解析|⭐️⭐️⭐️⭐️⭐️
 
 ## 小程序精品开发教程
 
