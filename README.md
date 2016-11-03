@@ -42,7 +42,7 @@
 生活|[艺术设计平台](https://github.com/SuperKieran/weapp-artand)|比较完整的一个生活类app，推荐学习参考|⭐️⭐️⭐️⭐️⭐️
 生活|[小熊の日记](https://github.com/harveyqing/BearDiary)|这个是记录生活的点点滴滴，可以参考里边的文本处理方式|⭐️⭐️⭐️
 健康|[健康菜谱](https://github.com/bestTao/Caipu_weixin)|是关于菜谱的小程序，用到了图文混排的功能|⭐️⭐️⭐️⭐️
-办公|[教务系统](https://github.com/zh-h/student-information-system-wechat-applet)|更新中|⭐️⭐️⭐️
+办公|[教务系统](https://github.com/zh-h/student-information-system-wechat-applet)|办公应用类小程序|⭐️⭐️⭐️
 学习|[github](https://github.com/zhengxiaowai/weapp-github)|调用Github接口实现基本Github小程序，逼格满满|⭐️⭐️⭐️⭐️
 学习|[Gank客户端](https://github.com/lypeer/wechat-weapp-gank)|Gank客户端，你懂得|⭐️⭐️⭐️
 学习|[分答](https://github.com/davedavehong/fenda-mock)|分答一个付费回答的小程序|⭐️⭐️⭐️⭐️
@@ -161,23 +161,22 @@
 
 ## 小程序开发者联盟
 
-    小程序开发者福利！！！为了大家互相学习，特成立【小程序开发者联盟】！  
+    如果你想找到志同道合的小程序员朋友，可以申请加入【小程序开发者联盟】  
 
-### 入盟须知： 
 
-#### 一、入盟资格   
+- 入盟资格   
 
-1. 必须有一款以上自己开发的小程序或者Demo  
-2. 和所有成员共享小程序源码    
+    1. 必须有一款以上自己开发的小程序或者Demo  
+    2. 和所有成员共享小程序源码    
 
-#### 二、入盟权益  
+- 入盟权益  
 
-1. 共享所有成员开源小程序代码  
-2. 优先获得外包机会赚取money  
-3. 获得独家微信小程序内部信息   
+    1. 共享所有成员开源小程序代码  
+    2. 优先获得外包机会赚取money  
+    3. 获得独家微信小程序内部信息   
 
 入盟请加我的微信，审核通过后方可拉入盟。  
-注意：不准私自拉人入盟，想入群加群主，否则一块踢掉！
+> 注意：不准私自拉人入盟，想入群加群主，否则一块踢掉！
 
 <img src="dily.png"/>
 
