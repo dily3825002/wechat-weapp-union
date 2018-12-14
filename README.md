@@ -160,11 +160,13 @@
 [青雀论坛](http://bbs.larkapp.com/forum-52-1.html) | 国内领先的小程序开发创建平台
 
 
-## 贡献者
+## Tips
 
-> 都看到这里了，如果觉得对您有帮助就帮忙点个`star`吧。
-
-点击[该链接](https://github.com/dily3825002/wechat-weapp-union/graphs/contributors)查看该项目所有贡献者
+<p align="center">
+都看到这里了不关注公众号么<br/>「这里文章不正经」<br/><br/>
+    <img src="./wechat.jpg"
+         height="130">
+</p>
 
 ## License
 
